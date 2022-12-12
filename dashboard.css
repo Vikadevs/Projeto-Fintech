@@ -1,0 +1,90 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+
+.body {
+    background: rgb(2,53,53);
+    background: linear-gradient(180deg, rgba(2,53,53,1) 4%, rgba(0,143,140,1) 65%, rgba(216,255,219,1) 99%);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.header-app{
+    width: 100%;
+    height: 150px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-family: 'Unica One', cursive;
+    color: #FFF;
+    position: position;
+    left: 50px;
+}
+
+.header-titulo{
+    font-size: 65px;
+}
+
+
+.img-logo{
+    width: 100px;
+    height: 80px;
+
+}
+
+.form-conta{
+    width: 500px;
+    height: 1%;
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-field {
+    /* position: relative;
+    bottom: 15px */
+    margin-bottom: 10px;
+}
+
+.labels-form{
+    color: #FFF;
+    font-family: 'Unica One' , cursive !important;
+    font-size: 22px;
+}
+
+.conteudo-principal{
+    display: flex;
+    justify-content: center;
+    flex-flow:column;
+    align-items: center;
+}
+
+.conta-button{
+    background-color: #015958 !important;
+    color: #C7FFED !important;
+    margin-top: 17px;
+}
+
+@media(max-width: 600px) {
+    .header-app{ 
+        margin-left: 0px;
+    }
+
+    .header-titulo{
+        font-size: 45px;
+    }
+
+    .img-logo{
+        width: 35px;
+    }
+
+    .form-conta{
+        width: unset;
+    }
+}
+    
